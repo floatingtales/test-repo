@@ -4,6 +4,7 @@ var randomNumberGenerator = function () {
 };
 
 var main = function (input) {
-  var myOutputValue = "hello world";
+  var myOutputValue = randomNumberGenerator();
+  console.log(`My output value is ${myOutputValue}`);
   return myOutputValue;
 };
